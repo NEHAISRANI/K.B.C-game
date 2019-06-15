@@ -13,4 +13,10 @@ while i<len(options):
     while j<len(options[i]):
         print options[i][j]
         j=j+1
+    user=input("enterv your choice")
+    if user==solution_list[i]:
+        print"congrats your answer correct"
+    else:
+        print"OOps! your answer  wrong"
+        break
     i=i+1
